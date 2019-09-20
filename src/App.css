@@ -1,0 +1,25 @@
+/* in following root these are custom css variables jinhen hm bd me just nam se use krskty hn */
+:root{
+    --mainBlue: #2a2a72;
+    --lightblue: #009ffd;
+    --mainWhite: #f3f3f3;
+    --mainDark: #232528;
+    --mainYellow: #ffa400; 
+}
+
+body{
+    font-family: 'Open Sans', sans-serif !important;
+    background: var(--mainWhite) !important;
+    color: var(--mainDark) !important;
+}
+.text-title{
+   font-family: 'Pacifico', cursive;
+   letter-spacing: 0.3rem;
+   text-transform: uppercase;
+}
+.text-blue{
+    color: var(--mainBlue);
+}
+.text-dark{
+    color: var(--lightblue);
+}
